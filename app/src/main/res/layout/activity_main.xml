@@ -14,21 +14,29 @@
         android:layout_weight="1"
         android:ems="10"
         android:inputType="number|numberDecimal|numberSigned"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="30sp"
         android:text="0" />
 
     <Button
         android:id="@+id/converter"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="309dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
         android:layout_weight="1"
-        android:text="@string/convert" />
+        android:text="@string/convert"
+        android:textSize="30sp"
+        />
 
     <TextView
         android:id="@+id/fahrenheit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="Hello World!"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Celsuis -> Fahrenheit"
         android:textSize="30sp" />
 
 </LinearLayout>
